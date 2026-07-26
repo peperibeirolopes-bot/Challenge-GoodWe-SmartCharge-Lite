@@ -1,0 +1,1 @@
+# Challenge-GoodWe-SmartCharge-Lite
