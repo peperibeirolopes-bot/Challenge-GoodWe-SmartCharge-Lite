@@ -1,5 +1,3 @@
-# Challenge-GoodWe-SmartCharge-Lite
-
 # 💼 Business Model - SmartCharge Lite
 
 ## Visão Geral
