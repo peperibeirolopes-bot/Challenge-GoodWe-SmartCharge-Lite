@@ -132,6 +132,6 @@ python main.py
 
 <div align="center">
 
-**SmartCharge Lite** — Desenvolvido para o desafio **GoodWe** 🔋
+**SmartCharge Lite** — Desenvolvido para o desafio **GoodWe ChargeGrid Intelligence 2026** 🔋
 
 </div>
