@@ -95,7 +95,7 @@ SmartCharge Lite
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seuusuario/SmartChargeLite.git
+git clone https://github.com/peperibeirolopes-bot/Challenge-GoodWe-SmartCharge-Lite.git
 
 # Acesse a pasta do projeto
 cd SmartChargeLite
