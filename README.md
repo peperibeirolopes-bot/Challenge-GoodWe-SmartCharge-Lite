@@ -60,7 +60,7 @@ O **SmartCharge Lite** é uma aplicação desktop desenvolvida em **Python** par
 ### 🚗 Sessões
 
 <p align="center">
-<img src="./assets/readme/sessoes.png" width="95%">
+<img src="./assets/readme/sessões.png" width="95%">
 </p>
 
 ---
@@ -68,7 +68,7 @@ O **SmartCharge Lite** é uma aplicação desktop desenvolvida em **Python** par
 ### 📄 Relatórios
 
 <p align="center">
-<img src="./assets/readme/relatorios.png" width="95%">
+<img src="./assets/readme/relatório.png" width="95%">
 </p>
 
 ---
