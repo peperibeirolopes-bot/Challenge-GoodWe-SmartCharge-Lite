@@ -141,8 +141,9 @@ python main.py
 
 | Documento | Descrição |
 |---|---|
-| 📄 [`BUSINESS_MODEL.md`](./docs/BUSINESS_MODEL.md) | Modelo de negócio e proposta comercial |
-| 🔄 [`DATA_FLOW.md`](./docs/DATA_FLOW.md) | Fluxo de dados do sistema |
+| 📄 [`BUSINESS_MODEL`](./docs/BUSINESS_MODEL) | Modelo de negócio e proposta comercial |
+| 🔄 [`DATA_FLOW`](./docs/DATA_FLOW) | Fluxo de dados do sistema |
+| 🔄 [`FLUXOGRAMA`](./docs/fluxograma_smartcharge.png) | Fluxo de dados do sistema |
 
 > *Depois adicionamos os outros documentos.*
 
