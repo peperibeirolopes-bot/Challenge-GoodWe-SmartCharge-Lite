@@ -41,16 +41,43 @@ O **SmartCharge Lite** é uma aplicação desktop desenvolvida em **Python** par
 
 ## 🖼️ Demonstração
 
-<div align="center">
+### 📊 Dashboard
 
-### Dashboard
-<img src="https://via.placeholder.com/700x400/eeeeee/999999?text=Print+do+Dashboard" alt="Dashboard" width="80%">
+<p align="center">
+<img src="./assets/readme/dashboard.png" width="95%">
+</p>
 
-### Carregadores
-<img src="https://via.placeholder.com/700x400/eeeeee/999999?text=Print+dos+Carregadores" alt="Carregadores" width="80%">
+---
 
-### Smart Assistant
-<img src="https://via.placeholder.com/700x400/eeeeee/999999?text=Print+do+Smart+Assistant" alt="Smart Assistant" width="80%">
+### 🔌 Carregadores
+
+<p align="center">
+<img src="./assets/readme/carregadores.png" width="95%">
+</p>
+
+---
+
+### 🚗 Sessões
+
+<p align="center">
+<img src="./assets/readme/sessoes.png" width="95%">
+</p>
+
+---
+
+### 📄 Relatórios
+
+<p align="center">
+<img src="./assets/readme/relatorios.png" width="95%">
+</p>
+
+---
+
+### 🤖 Smart Assistant
+
+<p align="center">
+<img src="./assets/readme/assistant.png" width="95%">
+</p>
 
 </div>
 
