@@ -11,8 +11,9 @@
 
 <br>
 
-<!-- Aqui entra uma imagem/banner do sistema futuramente -->
-<img src="https://via.placeholder.com/900x300/1a1a2e/eeeeee?text=SmartCharge+Lite" alt="Banner SmartCharge Lite" width="100%">
+<p align="center">
+<img src="./assets/goodwe.png" width="95%">
+</p>
 
 </div>
 
