@@ -31,3 +31,8 @@ Thumbs.db
 # macOS
 # =========================
 .DS_Store
+
+# =========================
+# Relatórios gerados pelo app
+# =========================
+Relatorio_SmartCharge_Lite.txt

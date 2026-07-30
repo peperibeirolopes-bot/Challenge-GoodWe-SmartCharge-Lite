@@ -1,6 +1,6 @@
 import customtkinter as ctk
 
-from assistente import responder
+from modules.assistente import responder
 
 
 def perguntar(pergunta_entry, resposta_label):

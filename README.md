@@ -9,6 +9,9 @@
 [![SQLite](https://img.shields.io/badge/Database-SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 [![License](https://img.shields.io/badge/License-Academic-orange?style=for-the-badge)](#)
 
+[![Instalação](https://img.shields.io/badge/📘_Guia-Instalação-blue?style=for-the-badge)](./docs/INSTALL.md)
+[![Guia do Usuário](https://img.shields.io/badge/📖_Guia-do_Usuário-blue?style=for-the-badge)](./docs/USER_GUIDE.md)
+
 <br>
 
 <p align="center">
@@ -107,13 +110,15 @@ O **SmartCharge Lite** é uma aplicação desktop desenvolvida em **Python** par
 ## 📂 Estrutura do Projeto
 
 ```
-SmartCharge Lite
+Challenge-GoodWe-SmartCharge-Lite
 │
 ├── assets/          # Ícones, imagens e recursos visuais
 ├── database/         # Banco de dados SQLite e scripts
 ├── interface/         # Telas e componentes da UI (CustomTkinter)
+├── modules/          # Lógica de negócio (assistente, relatórios)
 ├── docs/           # Documentação do projeto
 ├── main.py          # Ponto de entrada da aplicação
+├── .gitignore
 └── requirements.txt      # Dependências do projeto
 ```
 
@@ -126,7 +131,7 @@ SmartCharge Lite
 git clone https://github.com/peperibeirolopes-bot/Challenge-GoodWe-SmartCharge-Lite.git
 
 # Acesse a pasta do projeto
-cd SmartChargeLite
+cd Challenge-GoodWe-SmartCharge-Lite
 
 # Instale as dependências
 pip install -r requirements.txt
@@ -135,15 +140,19 @@ pip install -r requirements.txt
 python main.py
 ```
 
+📘 Passo a passo completo (ambiente virtual, solução de problemas e geração do executável) em **[`docs/INSTALL.md`](./docs/INSTALL.md)**.
+
 <br>
 
 ## 📚 Documentação
 
 | Documento | Descrição |
 |---|---|
+| ⚙️ [`INSTALL.md`](./docs/INSTALL.md) | Guia de instalação passo a passo |
+| 📖 [`USER_GUIDE.md`](./docs/USER_GUIDE.md) | Guia de uso de cada tela do sistema |
 | 📄 [`BUSINESS_MODEL`](./docs/BUSINESS_MODEL) | Modelo de negócio e proposta comercial |
 | 🔄 [`DATA_FLOW`](./docs/DATA_FLOW) | Fluxo de dados do sistema |
-| 🔄 [`FLUXOGRAMA`](./docs/fluxograma_smartcharge.png) | Fluxo de dados do sistema |
+| 🗺️ [`FLUXOGRAMA`](./docs/fluxograma_smartcharge.png) | Fluxograma visual do sistema |
 
 > *Depois adicionamos os outros documentos.*
 

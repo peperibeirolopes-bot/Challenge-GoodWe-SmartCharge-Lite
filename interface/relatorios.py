@@ -1,4 +1,4 @@
-from relatorios_logica import (
+from modules.relatorios_logica import (
     gerar_relatorio,
     exportar_relatorio
 )
