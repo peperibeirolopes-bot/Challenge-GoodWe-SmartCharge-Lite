@@ -1,11 +1,11 @@
 import customtkinter as ctk
 from tkinter import messagebox
-from database.database import (
+from dist.database.database import (
     listar_carregadores_livres,
     iniciar_sessao,
     listar_sessoes
 )
-from database.database import encerrar_sessao
+from dist.database.database import encerrar_sessao
 
 def mostrar_sessoes(content_frame):
     sessoes = listar_sessoes()

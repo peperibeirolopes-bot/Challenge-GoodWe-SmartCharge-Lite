@@ -1,6 +1,6 @@
 import customtkinter as ctk
 
-from database.database import (
+from dist.database.database import (
     inserir_carregador,
     listar_carregadores,
     atualizar_carregador,

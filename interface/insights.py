@@ -1,4 +1,4 @@
-from database.database import (
+from dist.database.database import (
     obter_estatisticas,
     listar_carregadores
 )

@@ -2,7 +2,7 @@ import customtkinter as ctk
 
 from interface.menu import criar_menu
 
-from database.database import (
+from dist.database.database import (
     criar_tabela,
     criar_tabela_sessoes
 )

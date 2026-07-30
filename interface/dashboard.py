@@ -1,6 +1,6 @@
 import customtkinter as ctk
 
-from database.database import obter_estatisticas
+from dist.database.database import obter_estatisticas
 
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
