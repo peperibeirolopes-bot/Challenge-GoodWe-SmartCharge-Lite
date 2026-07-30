@@ -150,11 +150,9 @@ python main.py
 |---|---|
 | ⚙️ [`INSTALL.md`](./docs/INSTALL.md) | Guia de instalação passo a passo |
 | 📖 [`USER_GUIDE.md`](./docs/USER_GUIDE.md) | Guia de uso de cada tela do sistema |
-| 📄 [`BUSINESS_MODEL`](./docs/BUSINESS_MODEL) | Modelo de negócio e proposta comercial |
-| 🔄 [`DATA_FLOW`](./docs/DATA_FLOW) | Fluxo de dados do sistema |
+| 📄 [`BUSINESS_MODEL.md`](./docs/BUSINESS_MODEL.md) | Modelo de negócio e proposta comercial |
+| 🔄 [`DATA_FLOW.md`](./docs/DATA_FLOW.md) | Fluxo de dados do sistema |
 | 🗺️ [`FLUXOGRAMA`](./docs/fluxograma_smartcharge.png) | Fluxograma visual do sistema |
-
-> *Depois adicionamos os outros documentos.*
 
 <br>
 
