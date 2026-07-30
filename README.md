@@ -11,8 +11,9 @@
 
 <br>
 
-<!-- Aqui entra uma imagem/banner do sistema futuramente -->
-<img src="https://via.placeholder.com/900x300/1a1a2e/eeeeee?text=SmartCharge+Lite" alt="Banner SmartCharge Lite" width="100%">
+<p align="center">
+<img src="./assets/goodwe.png" width="95%">
+</p>
 
 </div>
 
@@ -41,16 +42,43 @@ O **SmartCharge Lite** é uma aplicação desktop desenvolvida em **Python** par
 
 ## 🖼️ Demonstração
 
-<div align="center">
+### 📊 Dashboard
 
-### Dashboard
-<img src="https://via.placeholder.com/700x400/eeeeee/999999?text=Print+do+Dashboard" alt="Dashboard" width="80%">
+<p align="center">
+<img src="./assets/readme/dashboard.png" width="95%">
+</p>
 
-### Carregadores
-<img src="https://via.placeholder.com/700x400/eeeeee/999999?text=Print+dos+Carregadores" alt="Carregadores" width="80%">
+---
 
-### Smart Assistant
-<img src="https://via.placeholder.com/700x400/eeeeee/999999?text=Print+do+Smart+Assistant" alt="Smart Assistant" width="80%">
+### 🔌 Carregadores
+
+<p align="center">
+<img src="./assets/readme/carregadores.png" width="95%">
+</p>
+
+---
+
+### 🚗 Sessões
+
+<p align="center">
+<img src="./assets/readme/sessões.png" width="95%">
+</p>
+
+---
+
+### 📄 Relatórios
+
+<p align="center">
+<img src="./assets/readme/relatório.png" width="95%">
+</p>
+
+---
+
+### 🤖 Smart Assistant
+
+<p align="center">
+<img src="./assets/readme/assistant.png" width="95%">
+</p>
 
 </div>
 
@@ -113,8 +141,9 @@ python main.py
 
 | Documento | Descrição |
 |---|---|
-| 📄 [`BUSINESS_MODEL.md`](dist/docs/BUSINESS_MODEL.md) | Modelo de negócio e proposta comercial |
-| 🔄 [`DATA_FLOW.md`](dist/docs/DATA_FLOW.md) | Fluxo de dados do sistema |
+| 📄 [`BUSINESS_MODEL`](./docs/BUSINESS_MODEL) | Modelo de negócio e proposta comercial |
+| 🔄 [`DATA_FLOW`](./docs/DATA_FLOW) | Fluxo de dados do sistema |
+| 🔄 [`FLUXOGRAMA`](./docs/fluxograma_smartcharge.png) | Fluxo de dados do sistema |
 
 > *Depois adicionamos os outros documentos.*
 
