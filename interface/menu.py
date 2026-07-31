@@ -61,7 +61,7 @@ def criar_menu(app):
 
     linha = ctk.CTkFrame(
         menu_frame,
-        height=2,
+        height=4,
         fg_color="#334155"
     )
 

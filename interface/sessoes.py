@@ -1,11 +1,11 @@
 import customtkinter as ctk
 from tkinter import messagebox
-from dist.database.database import (
+from database.database import (
     listar_carregadores_livres,
     iniciar_sessao,
     listar_sessoes
 )
-from dist.database.database import encerrar_sessao
+from database.database import encerrar_sessao
 
 def mostrar_sessoes(content_frame):
     sessoes = listar_sessoes()
@@ -208,7 +208,7 @@ def criar_card_sessao(parent, sessao, content_frame):
 
     linha = ctk.CTkFrame(
         card,
-        height=2,
+        height=4,
         fg_color="#3F3F46"
     )
 
@@ -283,7 +283,7 @@ def criar_card_sessao(parent, sessao, content_frame):
 
         linha2 = ctk.CTkFrame(
             card,
-            height=2,
+            height=4,
             fg_color="#3F3F46"
         )
 

@@ -52,7 +52,7 @@ def mostrar_relatorios(content_frame):
 
     linha = ctk.CTkFrame(
         card,
-        height=2,
+        height=4,
         fg_color="#3F3F46"
     )
 

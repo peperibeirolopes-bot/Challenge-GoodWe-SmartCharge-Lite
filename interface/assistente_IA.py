@@ -76,7 +76,7 @@ def mostrar_assistente(content_frame):
 
     linha = ctk.CTkFrame(
         info_card,
-        height=2,
+        height=4,
         fg_color="#3F3F46"
     )
 
@@ -199,7 +199,7 @@ def mostrar_assistente(content_frame):
 
     linha = ctk.CTkFrame(
         resposta_card,
-        height=2,
+        height=4,
         fg_color="#3F3F46"
     )
 

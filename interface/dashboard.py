@@ -1,6 +1,6 @@
 import customtkinter as ctk
 
-from dist.database.database import obter_estatisticas
+from database.database import obter_estatisticas
 
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.figure import Figure
@@ -127,8 +127,18 @@ def mostrar_dashboard(content_frame):
     for widget in content_frame.winfo_children():
         widget.destroy()
 
-    titulo = ctk.CTkLabel(
+    scroll_frame = ctk.CTkScrollableFrame(
         content_frame,
+        fg_color="transparent"
+    )
+
+    scroll_frame.pack(
+        fill="both",
+        expand=True
+    )
+
+    titulo = ctk.CTkLabel(
+        scroll_frame,
         text="📊 Dashboard",
         font=("Segoe UI", 30, "bold")
     )
@@ -140,7 +150,7 @@ def mostrar_dashboard(content_frame):
     )
 
     subtitulo = ctk.CTkLabel(
-        content_frame,
+        scroll_frame,
         text="Visão geral da estação de recarga",
         font=("Segoe UI", 16),
         text_color="gray"
@@ -153,7 +163,7 @@ def mostrar_dashboard(content_frame):
     )
 
     main_frame = ctk.CTkFrame(
-        content_frame,
+        scroll_frame,
         fg_color="transparent"
     )
 
@@ -265,7 +275,7 @@ def mostrar_dashboard(content_frame):
     )
 
     insights_frame = ctk.CTkFrame(
-        content_frame,
+        scroll_frame,
         corner_radius=15,
         fg_color="#323232",
         border_width=1,
@@ -292,7 +302,7 @@ def mostrar_dashboard(content_frame):
 
     linha = ctk.CTkFrame(
         insights_frame,
-        height=2,
+        height=4,
         fg_color="#3F3F46"
     )
 

@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from dist.database.database import (
+from database.database import (
     obter_estatisticas,
     listar_sessoes
 )

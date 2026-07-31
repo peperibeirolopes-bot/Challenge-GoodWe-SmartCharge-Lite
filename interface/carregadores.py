@@ -1,6 +1,6 @@
 import customtkinter as ctk
 
-from dist.database.database import (
+from database.database import (
     inserir_carregador,
     listar_carregadores,
     atualizar_carregador,
@@ -127,7 +127,7 @@ def criar_card_carregador(parent, carregador, content_frame):
 
     linha = ctk.CTkFrame(
         card,
-        height=2,
+        height=4,
         fg_color="#3F3F46"
     )
 
@@ -216,7 +216,7 @@ def criar_card_carregador(parent, carregador, content_frame):
 
     linha2 = ctk.CTkFrame(
         card,
-        height=2,
+        height=4,
         fg_color="#3F3F46"
     )
 
