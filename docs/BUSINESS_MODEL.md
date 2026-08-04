@@ -98,15 +98,11 @@ Motorista
 
         │
 
-Conecta o veículo
+Conecta o veículo ao carregador GoodWe HCA G2
 
         │
 
-Carregador GoodWe HCA G2
-
-        │
-
-SmartCharge Lite
+Operador registra o início da sessão no SmartCharge Lite*
 
         │
 
@@ -127,6 +123,8 @@ Pagamento
 10% → GoodWe
 ```
 
+*Nesta versão, o registro de início/fim de sessão é feito manualmente pelo operador através da interface. A integração automática via API/protocolo do carregador GoodWe HCA G2 está prevista como evolução da plataforma (ver seção "Evolução prevista").
+
 ---
 
 # Modelo Comercial
@@ -139,6 +137,16 @@ Ao final de cada sessão de recarga:
 - **10%** é destinado à GoodWe como remuneração pela utilização da plataforma.
 
 Esse modelo incentiva a expansão da infraestrutura de recarga ao mesmo tempo em que garante sustentabilidade financeira para a plataforma.
+
+## Embasamento da comissão
+
+O percentual de 10% foi definido por referência a modelos de comissão praticados em setores comparáveis, e não de forma arbitrária:
+
+- **Marketplaces e plataformas de intermediação** (ex.: apps de delivery, reserva de serviços) costumam cobrar entre 10% e 25% por transação intermediada;
+- **Royalties de franquias** no Brasil giram tipicamente entre 5% e 12% do faturamento;
+- **Gateways de pagamento puros** (Pix, cartão) cobram separadamente, na faixa de 1% a 4%, e não estão inclusos nesse percentual — a comissão da GoodWe remunera especificamente o uso da plataforma de gestão (software) e do hardware do carregador, não o processamento do pagamento em si.
+
+Posicionar a comissão da GoodWe em 10% mantém a plataforma competitiva frente a esses parâmetros, preservando a maior parte da receita para o estabelecimento comercial — o que favorece a adoção inicial da solução. O percentual é tratado como **configurável**, podendo ser ajustado por volume de sessões ou por tipo de contrato comercial.
 
 ---
 
@@ -159,15 +167,24 @@ Exemplos:
 
 # Papel da Inteligência Artificial
 
-O Smart Assistant atua como um assistente operacional, permitindo consultas em linguagem natural e auxiliando administradores na tomada de decisões.
+Na versão atual, o **Smart Assistant** e o **Smart Insights** funcionam como um motor de regras heurístico: interpretam palavras-chave da pergunta do administrador e cruzam com os indicadores operacionais em tempo real (ocupação, energia, receita, disponibilidade), retornando respostas e alertas contextuais sem necessidade de conexão externa ou custo de inferência.
 
-Entre suas funcionalidades estão:
+Essa escolha foi deliberada para o estágio atual do produto: um MVP desktop, 100% local, com baixa latência e sem dependência de internet ou de custos de API — características importantes para uma estação comercial que precisa responder instantaneamente.
 
-- responder perguntas sobre a estação;
-- consultar indicadores operacionais;
-- informar receita e energia consumida;
-- identificar carregadores disponíveis;
-- fornecer insights sobre a operação.
+Funcionalidades atuais:
+
+- responder perguntas sobre a estação em linguagem natural simplificada;
+- consultar indicadores operacionais (receita, energia, sessões);
+- identificar carregadores disponíveis e recomendar o mais adequado;
+- gerar alertas automáticos sobre ocupação, manutenção e disponibilidade (Smart Insights).
+
+## Evolução prevista
+
+A arquitetura foi pensada para permitir a substituição gradual do motor de regras por um modelo de linguagem real (LLM) ou por modelos preditivos treinados com o histórico de sessões, sem alterar a camada de dados. Próximos passos planejados:
+
+- **NLP real**: substituir o casamento de palavras-chave por um modelo de linguagem (via API ou local), permitindo perguntas mais livres e complexas;
+- **Previsão de demanda**: usar o histórico de sessões para prever horários de pico e sugerir preços dinâmicos;
+- **Detecção de anomalias**: identificar carregadores com padrão de uso muito abaixo da média, sinalizando possível falha antes de uma manutenção formal ser registrada.
 
 ---
 
@@ -175,7 +192,7 @@ Entre suas funcionalidades estão:
 
 - Interface moderna e intuitiva.
 - Monitoramento em tempo real.
-- Inteligência Artificial integrada.
+- Motor de regras inteligente para suporte à decisão, com arquitetura pronta para evoluir para IA/NLP real.
 - Dashboard com indicadores operacionais.
 - Arquitetura preparada para expansão.
 - Modelo comercial sustentável.

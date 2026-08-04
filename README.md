@@ -158,11 +158,13 @@ python main.py
 
 ## 👥 Equipe
 
-| Integrante | GitHub |
-|---|---|
-| Nome do integrante 1 | [@usuario](#) |
-| Nome do integrante 2 | [@usuario](#) |
-| Nome do integrante 3 | [@usuario](#) |
+| Integrante           | RM     |
+|----------------------|--------|
+| Nome do integrante 1 | 570083 |
+| Nome do integrante 2 |        |
+| Nome do integrante 3 |        |
+| Nome do integrante 4 |        |
+| Nome do integrante 5 |        |
 
 <br>
 
